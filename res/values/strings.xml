@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Colosseum</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    
+    <!-- Description of the answer target in the Slide unlock screen of Phone. [CHAR LIMIT=NONE] -->
+    <string name="description_target_answer">Answer</string>
+    <!-- Description of the send_sms target in the Slide unlock screen of Phone. [CHAR LIMIT=NONE] -->
+    <string name="description_target_send_sms">Send SMS</string>
+    <!-- Description of the decline on target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <string name="description_target_decline">Decline</string>
+    <string name="description_target_mute">"mute"</string>
+    
+    <string name="sever_connect_success_tip_text">"连接Selinko成功"</string>
+    <string name="service_select_tip_text">"请选择您需要的服务"</string>
+    <string name="unread_message_tip_text">"您有一条未读信息"</string>
+
+</resources>

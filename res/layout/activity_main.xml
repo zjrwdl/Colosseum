@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:colosseum="http://schemas.android.com/apk/res/com.example.colosseum"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.colosseum.MainActivity" >
+
+    <TextView
+        android:id="@+id/sever_connect_success_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/sever_connect_success_tip_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sever_connect_success_tip"
+        android:layout_marginLeft="10dp"
+        android:text="@string/service_select_tip_text" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.example.colosseum.GlowPadView
+            android:id="@+id/incomingCallWidget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            colosseum:directionDescriptions="@array/incoming_call_widget_3way_direction_descriptions"
+            colosseum:feedbackCount="1"
+            colosseum:glowRadius="1dp"
+            colosseum:handleDrawable="@drawable/ic_in_call_touch_handle"
+            colosseum:innerRadius="15dip"
+            colosseum:outerRadius="200dip"
+            colosseum:outerRingDrawable="@drawable/ic_in_call_outering"
+            colosseum:snapMargin="40dip"
+            colosseum:targetDescriptions="@array/incoming_call_widget_3way_target_descriptions"
+            colosseum:targetDrawables="@array/incoming_call_widget_3way_targets"
+            colosseum:vibrationDuration="20" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/glow" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center" 
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/unread_messages"
+            android:layout_width="32dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/unread_messages_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/unread_message_tip_text" 
+            android:layout_toRightOf="@id/unread_messages"
+            android:layout_marginLeft="5dp"
+            android:gravity="bottom"
+            android:layout_alignBottom="@id/unread_messages"/>
+    </RelativeLayout>
+
+</RelativeLayout>
