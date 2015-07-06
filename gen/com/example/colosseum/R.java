@@ -1028,10 +1028,8 @@ containing a value of this type.
          */
         public static final int activity_horizontal_margin=0x7f080011;
         public static final int activity_vertical_margin=0x7f080012;
-        public static final int jui_incmoingcall_widget_target_position_right=0x7f080016;
-        public static final int jui_loading1_margin_center=0x7f080013;
-        public static final int jui_loading2_margin_center=0x7f080014;
-        public static final int jui_loading3_margin_center=0x7f080015;
+        public static final int colosseum_target_description_size=0x7f080013;
+        public static final int out_radius_dimen=0x7f080014;
     }
     public static final class drawable {
         public static final int abc_ab_bottom_solid_dark_holo=0x7f020000;
@@ -1121,20 +1119,17 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
-        public static final int glow=0x7f020057;
-        public static final int home_btn_antitheftservice=0x7f020058;
-        public static final int home_btn_authentication=0x7f020059;
-        public static final int home_btn_authentication_selector=0x7f02005a;
-        public static final int home_btn_brandexperienceservice=0x7f02005b;
-        public static final int home_btn_communityservice=0x7f02005c;
-        public static final int home_btn_geolocationservice=0x7f02005d;
-        public static final int home_btn_lostfoundservice=0x7f02005e;
-        public static final int home_btn_onescanbuyservice=0x7f02005f;
-        public static final int home_btn_resaleservice=0x7f020060;
-        public static final int ic_in_call_outering=0x7f020061;
-        public static final int ic_in_call_touch_handle=0x7f020062;
-        public static final int ic_launcher=0x7f020063;
-        public static final int unread_messages_icon=0x7f020064;
+        public static final int home_btn_antitheftservice_disable=0x7f020057;
+        public static final int home_btn_authentication_disable=0x7f020058;
+        public static final int home_btn_brandexperienceservice_disable=0x7f020059;
+        public static final int home_btn_communityservice_disable=0x7f02005a;
+        public static final int home_btn_geolocationservice_disable=0x7f02005b;
+        public static final int home_btn_onescanbuyservice_disable=0x7f02005c;
+        public static final int home_btn_resaleservice_disable=0x7f02005d;
+        public static final int home_btn_storeloaction_disable=0x7f02005e;
+        public static final int ic_in_call_touch_handle=0x7f02005f;
+        public static final int ic_launcher=0x7f020060;
+        public static final int ic_lockscreen_outerring=0x7f020061;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
@@ -1148,7 +1143,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f05003f;
+        public static final int action_settings=0x7f05003d;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
@@ -1167,7 +1162,7 @@ containing a value of this type.
         public static final int icon=0x7f05002a;
         public static final int ifRoom=0x7f05000a;
         public static final int image=0x7f050027;
-        public static final int incomingCallWidget=0x7f05003d;
+        public static final int incomingCallWidget=0x7f05003c;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f050029;
         public static final int middle=0x7f050012;
@@ -1187,7 +1182,6 @@ containing a value of this type.
         public static final int search_plate=0x7f050036;
         public static final int search_src_text=0x7f050037;
         public static final int search_voice_btn=0x7f05003b;
-        public static final int sever_connect_success_tip=0x7f05003c;
         public static final int shortcut=0x7f05002e;
         public static final int showCustom=0x7f050007;
         public static final int showHome=0x7f050004;
@@ -1197,7 +1191,6 @@ containing a value of this type.
         public static final int tabMode=0x7f050002;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
-        public static final int unread_messages=0x7f05003e;
         public static final int up=0x7f050021;
         public static final int useLogo=0x7f050003;
         public static final int withText=0x7f05000c;
@@ -1300,20 +1293,18 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
         public static final int action_settings=0x7f0a000f;
         public static final int app_name=0x7f0a000d;
-        /**  Description of the answer target in the Slide unlock screen of Phone. [CHAR LIMIT=NONE] 
-         */
-        public static final int description_target_answer=0x7f0a0010;
-        /**  Description of the decline on target in the Slide unlock screen. [CHAR LIMIT=NONE] 
-         */
-        public static final int description_target_decline=0x7f0a0012;
-        public static final int description_target_mute=0x7f0a0013;
-        /**  Description of the send_sms target in the Slide unlock screen of Phone. [CHAR LIMIT=NONE] 
-         */
-        public static final int description_target_send_sms=0x7f0a0011;
         public static final int hello_world=0x7f0a000e;
-        public static final int service_select_tip_text=0x7f0a0015;
-        public static final int sever_connect_success_tip_text=0x7f0a0014;
-        public static final int unread_message_tip_text=0x7f0a0016;
+        public static final int service_select_tip_text=0x7f0a0011;
+        public static final int sever_connect_success_tip_text=0x7f0a0010;
+        public static final int target_antitheft=0x7f0a0014;
+        public static final int target_authentication=0x7f0a0015;
+        public static final int target_brand=0x7f0a0018;
+        public static final int target_buy=0x7f0a0016;
+        public static final int target_communicate=0x7f0a0019;
+        public static final int target_geolocation=0x7f0a001a;
+        public static final int target_resale=0x7f0a0017;
+        public static final int target_storelocator=0x7f0a0013;
+        public static final int unread_message_tip_text=0x7f0a0012;
     }
     public static final class style {
         /** 

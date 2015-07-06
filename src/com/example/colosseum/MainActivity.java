@@ -1,7 +1,8 @@
 package com.example.colosseum;
 
 
-import com.example.colosseum.GlowPadView.OnTriggerListener;
+import com.example.colosseum.widget.GlowPadView;
+import com.example.colosseum.widget.GlowPadView.OnTriggerListener;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -23,13 +24,6 @@ public class MainActivity extends ActionBarActivity implements OnTriggerListener
 		mGlowPadView = (GlowPadView)this.findViewById(R.id.incomingCallWidget);
 		mGlowPadView.setAlpha(1);
 		mGlowPadView.setVisibility(View.VISIBLE);
-		
-		
-//		mImageView = (ImageView)this.findViewById(R.id.image);
-//		
-//		Animation animation = AnimationUtils
-//				.loadAnimation(this, R.anim.glow);
-//		mImageView.startAnimation(animation);
 	}
 
 	@Override
@@ -67,6 +61,7 @@ public class MainActivity extends ActionBarActivity implements OnTriggerListener
 	public void onTrigger(View v, int target) {
 		// TODO Auto-generated method stub
 		Log.i("TEST", "target ="+target);
+		//可以针对不同的target做出对应的动作处理
 	}
 
 	@Override

@@ -3,9 +3,7 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    	 <dimen name="jui_loading1_margin_center">45dp</dimen>
-	 <dimen name="jui_loading2_margin_center">65dp</dimen>
-	 <dimen name="jui_loading3_margin_center">85dp</dimen>
-	 <dimen name="jui_incmoingcall_widget_target_position_right">35dp</dimen>
+    <dimen name="colosseum_target_description_size">15dp</dimen>
+    <dimen name="out_radius_dimen">100dp</dimen>
 
 </resources>
